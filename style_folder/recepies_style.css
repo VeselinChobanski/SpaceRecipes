@@ -5,9 +5,10 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Cambria;
     background: #f9f9f9;
     color: #333;
+    background-color: rgb(219, 170, 106);
 }
 
 header {
@@ -31,14 +32,17 @@ header {
     flex: 1 1 30%;
     padding: 15px;
     background: white;
-    border: 1px solid #333;
+    border: 2px solid #333;
     border-radius: 8px;
+    font-size: large;
 }
 
 img {
     width: 100%;
     border-radius: 8px;
+    height: 90%;
 }
+
 
 table {
     width: 100%;
