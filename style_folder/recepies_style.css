@@ -5,18 +5,12 @@
 }
 
 body {
-    font-family: Cambria;
-    background: #f9f9f9;
-    color: #333;
+    font-family: Cambria, serif;
     background-color: rgb(219, 170, 106);
+    color: #333;
 }
 
-header {
-    text-align: center;
-    padding: 20px;
-    background: #333;
-    color: white;
-}
+
 
 .main_page_content, .row {
     padding: 20px;
@@ -29,24 +23,29 @@ header {
 }
 
 .section {
-    flex: 1 1 30%;
+    flex: 1 1 25%;
     padding: 15px;
-    background: white;
+    background-color: white;
     border: 2px solid #333;
     border-radius: 8px;
     font-size: large;
+    margin-bottom: 20px; 
+}
+
+h1, h2, h3 {
+    text-align: center;
 }
 
 img {
     width: 100%;
     border-radius: 8px;
-    height: 90%;
+    height: auto; 
 }
-
 
 table {
     width: 100%;
     border-collapse: collapse;
+    margin-bottom: 20px; 
 }
 
 th, td {
@@ -58,13 +57,21 @@ ol, ul {
     padding-left: 20px;
 }
 
-@media (max-width: 768px) {
+li {
+    margin-bottom: 25px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+@media (max-width: 1300px) {
     .section {
         flex: 1 1 45%;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1100px) {
     .section {
         flex: 1 1 100%;
     }

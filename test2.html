@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Космически Рецепти</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2b2b2b;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #ff6600;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .planet-system {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin-top: 50px;
+        }
+        .planet {
+            background-color: #444;
+            padding: 30px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        .planet:hover {
+            transform: scale(1.1);
+        }
+        .planet img {
+            width: 100px;
+            margin-bottom: 15px;
+            border-radius: 50%;
+        }
+        .planet h2 {
+            color: #ff6600;
+            font-size: 1.5em;
+        }
+        .planet p {
+            font-size: 1em;
+            margin-bottom: 10px;
+        }
+        .link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #ff6600;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .link:hover {
+            background: #cc5200;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Космически Рецепти в Слънчевата Система</h1>
+        
+        <!-- Карта на Слънчевата система -->
+        <div class="planet-system">
+            <!-- Планета Меркурий -->
+            <div class="planet" onclick="window.location.href='mercury-recipe.html'">
+                <img src="mercury.jpg" alt="Планета Меркурий">
+                <h2>Меркурий</h2>
+                <p>Най-близката планета до Слънцето - гореща и с интересни рецепти за жарен хляб!</p>
+            </div>
+
+            <!-- Планета Венера -->
+            <div class="planet" onclick="window.location.href='venus-recipe.html'">
+                <img src="venus.jpg" alt="Планета Венера">
+                <h2>Венера</h2>
+                <p>Тайнствени рецепти с подправки, вдъхновени от горещата атмосфера на Венера.</p>
+            </div>
+
+            <!-- Планета Земя -->
+            <div class="planet" onclick="window.location.href='earth-recipe.html'">
+                <img src="earth.jpg" alt="Планета Земя">
+                <h2>Земя</h2>
+                <p>Планетата с най-разнообразни ястия! Открий рецепти от всяка точка на Земята.</p>
+            </div>
+
+            <!-- Планета Марс -->
+            <div class="planet" onclick="window.location.href='mars-recipe.html'">
+                <img src="mars.jpg" alt="Планета Марс">
+                <h2>Марс</h2>
+                <p>Червени и подправени ястия вдъхновени от планетата на червения прах.</p>
+            </div>
+
+            <!-- Други планети по същия начин -->
+        </div>
+    </div>
+
+</body>
+</html>
