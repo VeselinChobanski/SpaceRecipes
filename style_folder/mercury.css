@@ -8,6 +8,8 @@ body {
     font-family: Cambria, serif;
     color: rgb(252, 252, 255);
     background-image: url(../Images/index_background.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 

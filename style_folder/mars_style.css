@@ -27,7 +27,7 @@ body {
 .section {
     flex: 1 1 25%;
     padding: 15px;
-    background-color: #fb6f92;
+    background-color: #c1440e;
     border: 2px solid #333;
     border-radius: 8px;
     font-size: large;
@@ -148,7 +148,7 @@ li {
     top: 4px;
     width: 25%;
     height: 48px;
-    background-color: #c9184a;
+    background-color: #451804;
     border-radius: 12px;
     display: flex;
     align-items: center;
