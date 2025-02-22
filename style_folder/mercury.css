@@ -124,6 +124,7 @@ li {
   .button-container {
     position: relative;
     display: inline-block;
+    padding-bottom: 20px;
 }
 
 .btn {
