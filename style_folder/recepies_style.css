@@ -6,8 +6,7 @@
 
 body {
     font-family: Cambria, serif;
-    background-color: #798de4;
-    color: #333;
+    color: rgb(226, 226, 230);
 }
 
 
@@ -25,7 +24,7 @@ body {
 .section {
     flex: 1 1 25%;
     padding: 15px;
-    background-color: white;
+    background-color: rgb(108, 129, 248);
     border: 2px solid #333;
     border-radius: 8px;
     font-size: large;
