@@ -7,9 +7,6 @@
 body {
     font-family: Cambria, serif;
     color: rgb(252, 252, 255);
-    background-image: url(../Images/index_background.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 
@@ -27,7 +24,7 @@ body {
 .section {
     flex: 1 1 25%;
     padding: 15px;
-    background-color: #8d462f;
+    background-color: #6a994e;
     border: 2px solid #333;
     border-radius: 8px;
     font-size: large;
@@ -124,7 +121,6 @@ li {
   .button-container {
     position: relative;
     display: inline-block;
-    padding-bottom: 20px;
 }
 
 .btn {
@@ -149,7 +145,7 @@ li {
     top: 4px;
     width: 25%;
     height: 48px;
-    background-color: #5e2615;
+    background-color: #386641;
     border-radius: 12px;
     display: flex;
     align-items: center;
