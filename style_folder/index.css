@@ -23,7 +23,7 @@ body {
 .planet-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
+    gap: 25px;
 }
 .planet {
     background-color: #333;
@@ -114,7 +114,7 @@ body {
     width: 128px;
     height: 48px;
     border-radius: 10px;
-    background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
+    background: linear-gradient(-45deg, #ffffff 0%, #40c9ff 100% );
     z-index: -10;
     pointer-events: none;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -125,7 +125,7 @@ body {
     z-index: -1;
     position: absolute;
     inset: 0;
-    background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+    background: linear-gradient(-45deg, #ffffff 0%, #506df0 100% );
     transform: translate3d(0, 0, 0) scale(0.95);
     filter: blur(20px);
   }
@@ -142,9 +142,41 @@ body {
     scale: 0.7;
   }
   
+  /* From Uiverse.io by gharsh11032000 */ 
 
 a{
     text-decoration: none;
 }
 
+/* From Uiverse.io by Gautammsharma */ 
+.comic-button {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #506df0;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .comic-button:hover {
+    background-color: #fff;
+    color: #52a3ff;
+    border: 2px solid #506df0;
+    box-shadow: 5px 5px 0px #506df0;
+  }
+  
+  .comic-button:active {
+    background-color: #ffffff;
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+  
+/* From Uiverse.io by Gautammsharma */ 
 
