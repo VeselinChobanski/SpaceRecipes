@@ -9,6 +9,7 @@ body {
     background-position: center;
 
 }
+
 .container {
     max-width: 1000px;
     margin: auto;
@@ -26,7 +27,7 @@ body {
     gap: 25px;
 }
 .planet {
-    background-color: #bbafdb;
+    background-color: #0a1128;
     border-radius: 10px;
     padding: 20px;
     transition: transform 0.3s;
@@ -51,7 +52,7 @@ body {
     margin-bottom: 15px;
 }
 .planet h2 {
-    color: #506df0;
+    color: #0e6ba8;
     font-size: 1.5em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -62,7 +63,7 @@ body {
    
 }
 .mission {
-    background-color: #bbafdb;
+    background-color: #0a1128;
     padding: 20px;
     margin-bottom: 30px;
     border-radius: 10px;
@@ -90,7 +91,7 @@ body {
     position: relative;
     width: 120px;
     height: 40px;
-    background-color: #506df0;
+    background-color: #758bfd;
     display: flex;
     align-items: center;
     color: white;
