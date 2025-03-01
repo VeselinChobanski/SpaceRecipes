@@ -33,7 +33,10 @@ body {
     border-radius: 8px;
     font-size: large;
     margin-bottom: 20px; 
-    
+    transition: transform 0.3s;
+}
+.section:hover{
+    transform: scale(1.02);
 }
 
 h1, h2, h3 {
@@ -55,6 +58,9 @@ table {
     
 }
 
+th{
+    background-color: #7c290b;
+}
 
 th, td {
     padding: 10px;
@@ -151,7 +157,7 @@ li {
     top: 4px;
     width: 25%;
     height: 48px;
-    background-color: #A6744D ;
+    background-color: #7c290b ;
     border-radius: 12px;
     display: flex;
     align-items: center;
