@@ -285,3 +285,83 @@ body {
 .Link__discord:hover .discord {
   fill: white;
 }
+footer {
+  background-color: #333;
+  margin-top: 50px;
+  padding: 30px 0;
+  color: white;
+  border-top: 3px solid #506df0;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #506df0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #444;
+  transition: all 0.3s ease;
+}
+
+.social-icon svg {
+  fill: white;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+.social-icon.instagram:hover {
+  background-color: #cc39a4;
+}
+
+.social-icon.twitter:hover {
+  background-color: #03a9f4;
+}
+
+.social-icon.github:hover {
+  background-color: #333;
+}
+
+.social-icon.discord:hover {
+  background-color: #8c9eff;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #aaa;
+}
