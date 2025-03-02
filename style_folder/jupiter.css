@@ -28,7 +28,7 @@ body {
 .section {
     flex: 1 1 25%;
     padding: 15px;
-    background-color: #66385e;
+    background-color: #ffda3d;
     border: 2px solid #333;
     border-radius: 8px;
     font-size: large;
@@ -63,6 +63,10 @@ th, td {
     padding: 10px;
     border-bottom: 1px solid #555;
     
+}
+
+th{
+    background-color: #fdb833;
 }
 
 ol, ul {
@@ -154,7 +158,7 @@ li {
     top: 4px;
     width: 25%;
     height: 48px;
-    background-color: #66385e;
+    background-color: #fdb833;
     border-radius: 12px;
     display: flex;
     align-items: center;
