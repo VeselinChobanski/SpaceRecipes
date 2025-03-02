@@ -28,7 +28,7 @@ body {
 .section {
     flex: 1 1 25%;
     padding: 15px;
-    background-color: #6a994e;
+    background-color: #219ebc;
     border: 2px solid #333;
     border-radius: 8px;
     font-size: large;
@@ -58,7 +58,7 @@ table {
     
 }
 th{
-    background-color: #386641;
+    background-color: #0353a4;
 }
 
 
@@ -157,7 +157,7 @@ li {
     top: 4px;
     width: 25%;
     height: 48px;
-    background-color: #386641;
+    background-color: #0353a4;
     border-radius: 12px;
     display: flex;
     align-items: center;
