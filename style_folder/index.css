@@ -1,6 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
- 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -21,7 +20,6 @@ body {
   color: #506df0;
   font-size: 20px;
   margin-bottom: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   display: flex;
   flex-direction: row;
   background-color: #333;
@@ -58,7 +56,6 @@ body {
   justify-content: space-between;
   height: 500px; 
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #2e4197;
   font-weight: bold;
  
@@ -75,7 +72,6 @@ body {
 .planet h2 {
   color: #506df0;
   font-size: 1.5em;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .planet p {
   flex-grow: 1; 
@@ -94,7 +90,6 @@ body {
 }
 .mission h2 {
   color: #506df0;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
  
  
