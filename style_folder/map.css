@@ -29,17 +29,23 @@ h1{
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
-  
 }
 
-
+.head_button{
+  background-color: #333;
+}
+.head_button h1{
+  padding-bottom: 20px;
+}
 
 /* Начало на бутона за бръщане*/ 
 
 .button-container {
   
-  margin-left: 50px;
-  margin-top: 50px;
+  padding-top: 20px;
+  padding-left: 20px;
+  
+  
 }
 
 .btn {
@@ -64,7 +70,7 @@ h1{
   top: 4px;
   width: 25%;
   height: 48px;
-  background-color: #5e2615;
+  background-color: #333;
   border-radius: 12px;
   display: flex;
   align-items: center;
