@@ -106,7 +106,6 @@ body {
  
 }
  
-/* From Uiverse.io by gharsh11032000 */ 
 .button {
   position: relative;
   width: 120px;
@@ -163,13 +162,12 @@ body {
   scale: 0.7;
 }
  
-/* From Uiverse.io by gharsh11032000 */ 
  
 a{
   text-decoration: none;
 }
  
-/* From Uiverse.io by Gautammsharma */ 
+
 .comic-button {
   display: inline-block;
   padding: 10px 10px;
@@ -199,7 +197,7 @@ a{
   transform: translateY(4px);
 }
  
-/* From Uiverse.io by Gautammsharma */ 
+
 
 footer{
   background-color: #506df0 ;
@@ -207,7 +205,7 @@ footer{
   padding: 25px 0;
 }
 
-/* From Uiverse.io by aarjaycreation */ 
+
 .main__socials {
 display: flex;
 flex-direction: row;
