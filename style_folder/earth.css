@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body {
-    font-family: Cambria, serif;
     color: rgb(252, 252, 255);
     background-image: url(../Images/index_background.jpg);
     background-size: cover;
@@ -92,7 +92,6 @@ li {
     }
 }
 
-/* Начало на бутона за оценяване*/ 
 .rating:not(:checked) > input {
     position: absolute;
     appearance: none;
@@ -125,9 +124,7 @@ li {
   .rating > input:checked ~ label {
     color: #ffa723;
   }
-  /*   Край на бутона за оценяване   */
 
-  /* Начало на бутона за бръщане*/ 
 
   .button-container {
     position: relative;
@@ -143,7 +140,6 @@ li {
     border-radius: 16px;
     font-size: 20px;
     font-weight: 600;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
     text-align: center;
     position: relative;
@@ -181,7 +177,8 @@ li {
     height: 25px;
     fill: black;
 }
-/*   Край на бутона за връщане   */
+
+
 .head_of_sections{
     color: #182c1c;
 }
@@ -192,7 +189,7 @@ footer{
     padding: 25px 0;
   }
 
-  /* From Uiverse.io by aarjaycreation */ 
+
 .main__socials {
   display: flex;
   flex-direction: row;
